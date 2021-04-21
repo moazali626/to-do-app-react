@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.App {
+	text-align: center;
+}
+
+.main {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: inline-block;
+	width: 450px;
+	background-color: #F9F8FD;
+	border-radius: 10px;
+}
+
+.main h2 {
+	margin: 20px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.list {
+	width: 350px;
+	height: 40px;
+	background-color: #f2f2f2;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+.list p {
+	padding-top: 10px;
+	margin-left: 20px;
+	font-size: 22px;
+	text-align: left;
+}
+
+.delete-btn {
+	padding: 6px 9px;
+	margin-left: 10px;
+	background: none;
+	background-color: rgba(255, 0, 0, 0.74);
+	border: none;
+	position: relative;
+	left: 205px;
+	bottom: 36px;
+	border-radius: 4px;
+}
+
+.AddIcon {
+	color: white;
+}
+
+.DeleteIcon {
+	color: white;
+}
+
+.remainingTasks {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.remainingTasks button {
+	padding: 12px 19px;
+	margin-left: 10px;
+	position: relative;
+	top: 3px;
+	background: none;
+	background-color: #8E49E9;
+	border: none;
+	border-radius: 4px;
+}
+
+.remainingTasks p {
+	color: white;
+	font-size: 14px;
+}
